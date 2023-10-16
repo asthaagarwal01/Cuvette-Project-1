@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    
+}
+
+h2
+{
+    font-weight: 2000;
+    font-style: bold;
+    line-height: 150%;
+}
+
+.container1
+{
+    height: 67vh;
+    width: 100%;
+    background-color: #FFCD9E;
+    padding: 5.5rem 8.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left
+{
+    width: 37%;
+}
+
+#content
+{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    width: 90%;
+    line-height: 140%;
+    color: #484848;
+   
+}
+
+#small
+{
+    margin-bottom: 1.5rem;
+    font-size: 0.90rem;
+    font-weight: 600;
+}
+
+input
+{
+    border-radius: 0.25rem;
+    padding: 0.65rem;
+    width: 14rem;
+    border: solid 0.15rem black;
+}
+
+button
+{
+    padding: 0.80rem 1.85rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-left: 0.30rem;
+}
+
+#white
+{
+    color: white;
+    padding: 1.5rem 2rem;
+    font-size: 0.80rem;
+}
+
+img
+{
+    width: 22rem;
+    height: 23rem;
+}
+
+.container2
+{
+    background-color: #282828;
+    color: white;
+    height: 33vh;
+    padding: 4rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul
+{
+    list-style: none;
+}
+
+li
+{
+    font-size: 0.90rem;
+    margin-bottom: 0.60rem;
+}
+
+.foot-right
+{
+    font-size: 0.90rem;
+    text-align: right;
+}
+
+.foot-right p
+{
+    margin-bottom: 0.60rem;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.icons img
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
